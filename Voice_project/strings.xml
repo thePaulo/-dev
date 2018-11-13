@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Voice_project</string>
+
+    <string-array name="animes">
+        <item>noragami aragoto</item>
+        <item>mob psycho 100</item>
+    </string-array>
+
+    <string-array name="musics">
+        <item>https://api-2.datmusic.xyz/links/6d891599686e216eb28a66c84b81d55d/Noragami%20Aragoto%20-%20Official%20Opening%20-%20Kyouran%20Hey%20Kids.mp3</item>
+        <item>https://api-2.datmusic.xyz/links/2c16d7090a1018af2458766cddedc9bc/MOB%20CHOIR%20-%2099.mp3</item>
+    </string-array>
+
+    <integer-array name="images">
+        <item>@drawable/noragami_aragoto</item>
+        <item>@drawable/mob_psycho</item>
+    </integer-array>
+</resources>
+
