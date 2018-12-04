@@ -9,7 +9,17 @@
     tools:context=".MusicActivity">
 
 
+
     <TextView
+        android:id="@+id/song_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Now playing... ?"
+        />
+
+    <TextView
+        android:id="@+id/type_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Digite o anime desta musica: "
