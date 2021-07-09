@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="339dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/edtNomeCad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imd" />
+
+    <EditText
+        android:id="@+id/edtNomeCad"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="nome completo"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/edtEmailCad"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <EditText
+        android:id="@+id/edtEmailCad"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="mail"
+        android:inputType="textPersonName|textWebEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/edtSenhaCad"
+        app:layout_constraintEnd_toEndOf="@+id/edtNomeCad"
+        app:layout_constraintStart_toStartOf="@+id/edtNomeCad"
+        app:layout_constraintTop_toBottomOf="@+id/edtNomeCad" />
+
+    <EditText
+        android:id="@+id/edtSenhaCad"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="senha"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/edtButtonCad"
+        app:layout_constraintEnd_toEndOf="@+id/edtEmailCad"
+        app:layout_constraintStart_toStartOf="@+id/edtEmailCad"
+        app:layout_constraintTop_toBottomOf="@+id/edtEmailCad" />
+
+    <Button
+        android:id="@+id/edtButtonCad"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:onClick="cadastro"
+        android:text="Cadastrar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/edtSenhaCad"
+        app:layout_constraintStart_toStartOf="@+id/edtSenhaCad"
+        app:layout_constraintTop_toBottomOf="@+id/edtSenhaCad" />
+</android.support.constraint.ConstraintLayout>

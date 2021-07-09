@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">QRtry</string>
+
+    <string-array name="trees">
+        <item> jatobá </item>
+        <item> pau ferro </item>
+        <item> ipê roxo </item>
+        <item> cumichá </item>
+    </string-array>
+
+    <string-array name="description">
+        <item> Nome científico:Hymenaea courbaril \n Classificação superior:Hymenaea \n Ordem:Fabales \n Classificação:Espécie \n Espécie:H. courbaril \n Família:Fabaceae \n Nome popular: Jatobá. \n Sobre: \n É a espécie arbórea dominante na mata atlântica. A espécie pode alcançar 40 metros de altura e 2 metros de diâmetro. É considerada sagrada por povos indígenas, que serviam os frutos antes de meditação, pois acreditavam que o fruto trazia equilíbrio mental.</item>
+        <item> Nome científico:Libidibia ferrea \n Ordem:Fabales \n Classificação:Espécie \n Família: Fabaceae \n Nome popular: Pau-ferro \n Sobre: \n É uma árvore encontrada no Brasil e na Bolívia. Uma madeira extremamente dura o ferro de seu nome se dá das faíscas e do ruído metálico produzido por machados quando cortada. Frequentemente usada para integrar braços para baixos elétricos e guitarras.</item>
+        <item> Nome científico:Handroanthus impetiginosus \n Classificação superior:Handroanthus \n Ordem:Lamiales \n Classificação:Espécie \n Reino:Plantae \n Filo:Tracheophyta \n Família: Bignoniaceae \n Nome popular: Ipê roxo \n Sobre: \n Uma árvore da Américado Sul, conhecida pela utilização medicinal e como madeira de lei(São aptas para emprego em construção civil, naval, confecção de móveis, instrumentos musicais.). Seus nomes populares mais conhecidos são: piúva, pau-de arco, piúna, ipê-roxo-de-bola, ipê-una, ipê-roxo-grande, ipê-de-minas, piúna-roxa</item>
+        <item> Nome científico: Allophylus puberulus \n Família: Sapindaceae \n Nome popular: cumichá, pimentinha, cafezinho \n Tipo de vegetação: floresta ombrófila densa de terras baixas. \n Obs: Arvoreta de sub-bosque. \n Sobre: \n Arvoreta ou arbustocativa da restinga(espaço formadopor depósitos arenosos paralelos à linha da costa)Espécie excepcional para atrair pássaros, principalmente saíras (Tangara sp.), motivo de seu nome popular.</item>
+
+    </string-array>
+
+    <string-array name="images">
+        <item>@drawable/jatoba</item>
+        <item>@drawable/pau_de_ferro</item>
+        <item>@drawable/ipe</item>
+        <item>@drawable/cumicha</item>
+    </string-array>
+</resources>

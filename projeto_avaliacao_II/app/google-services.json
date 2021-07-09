@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "853462057167",
+    "firebase_url": "https://project-reposicao.firebaseio.com",
+    "project_id": "project-reposicao",
+    "storage_bucket": "project-reposicao.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853462057167:android:61d9fe2306179c01",
+        "android_client_info": {
+          "package_name": "br.ufrn.imd.reposicao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853462057167-3gqlnbbbtn5bembngebccghcl7jjq83g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.ufrn.imd.reposicao",
+            "certificate_hash": "0a99e26aaf8f8fec934ceb729a86d9c1111c328e"
+          }
+        },
+        {
+          "client_id": "853462057167-umjbruch6dtqsogc5l07mte3t41n4p3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjPj9oVNBajo5FPj2bLElfLHsmX2H2FqU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853462057167-umjbruch6dtqsogc5l07mte3t41n4p3t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Voice_project</string>
+
+    <string-array name="animes">
+        <item>noragami aragoto</item>
+        <item>mob psycho 100</item>
+        <item>tokyo ghul:re</item>
+        <item>Sword art online</item>
+        <item>Sword art online 2</item>
+        <item>death parade</item>
+        <item>noragami</item>
+        <item>re:creators</item>
+        <item>shingeki no kyojin</item>
+        <item>log horizon</item>
+        <item>fate/apocrypha</item>
+        <item>parasyte</item>
+        <item>death note</item>
+
+    </string-array>
+
+    <string-array name="musics">
+        <item>https://raw.githubusercontent.com/thePaulo/thePaulo.github.io/master/Noragami%20op%202-%20Full.mp3</item>
+        <item>https://raw.githubusercontent.com/thePaulo/thePaulo.github.io/master/Mob%20Choir%20-%2099.mp3</item>
+        <item>https://raw.githubusercontent.com/thePaulo/thePaulo.github.io/master/asphyxia%20-%20tokyo%20ghul%20re.mp3</item>
+        <item>https://raw.githubusercontent.com/thePaulo/thePaulo.github.io/master/SAO%20I%20opening%201.mp3</item>
+        <item>https://raw.githubusercontent.com/thePaulo/thePaulo.github.io/master/Sword%20Art%20Online%20II%20Opening%201%20-%20Ignite.mp3</item>
+        <item>https://raw.githubusercontent.com/thePaulo/thePaulo.github.io/master/flyers_-_bradio.mp3</item>
+        <item>https://raw.githubusercontent.com/thePaulo/thePaulo.github.io/master/Norgami%20-%20Noragami%20OP%201.mp3</item>
+        <item>https://raw.githubusercontent.com/thePaulo/thePaulo.github.io/master/ReCreators%20-%20sh0ut.mp3</item>
+        <item>https://raw.githubusercontent.com/thePaulo/thePaulo.github.io/master/Shingeki%20no%20Kyojin%202%20Opening%20-%20Shinzou%20wo%20Sasageyo.mp3</item>
+        <item>https://raw.githubusercontent.com/thePaulo/thePaulo.github.io/master/database.mp3</item>
+        <item>https://raw.githubusercontent.com/thePaulo/thePaulo.github.io/master/eyuu%20unmei%20no%20uta%20-%20Fate%20Apocrypha.mp3</item>
+        <item>https://raw.githubusercontent.com/thePaulo/thePaulo.github.io/master/parasyte%20opening.mp3</item>
+        <item>https://raw.githubusercontent.com/thePaulo/thePaulo.github.io/master/01%20-%20the%20WORLD.mp3</item>
+        <!--
+        <item>https://cf-media.sndcdn.com/QTY4izhN4zWv.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vUVRZNGl6aE40eld2LjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1NDM1MTI0NjF9fX1dfQ__&Signature=LuEvYdiBrIhQ4Iicprt-9dby5x~rs8TQC8Gx0JNLcZVHG12Ya-p1tjNYnY1UO2IeG0lXMaejdBCJ0TzXRYmbZkzpAUq4xQ~BXtvFeV0ZaKrwiHEUU6-ik-Y8Rf-TBxbO~3AQg0LTgRm-lZliEIXHgOtX8~k~BNYay5HpSANWsobOa~F9lCUhUN6VrNICIsWYD08OZX-V1uhU50Jb3tT~TAO5XXxl7gFEpxNSG~443fWM42JeCLW-IGVIMeYgshtlRJaOT~bGvaqVsK~lSCwu3UtybvsSnLtp2ZCXYzXI7V7jGtU3~~68pnJOhuuc41MKXKZ~leYk4mCVTD2yP6udSQ__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ</item>
+        <item>https://cf-media.sndcdn.com/VPkCxJ0GLMNG.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vVlBrQ3hKMEdMTU5HLjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1NDM1MTI1MDF9fX1dfQ__&Signature=p8R4RuJ6WijRT38bqq4Es3dpQU~oGBZkIxVL-K1us5jOqUn~dx9vRJ9~wHOEdZz6DdzWV3v2FX7qrTkDVQ31Rfy57RSLZzMjxNpLrjx6TW0jF6D7Ir0pZyiPURkyL5vIX9ZGZwcXpgs1mSNQIFuO15L2bQJPWZv6~54lD-wgQTJkNVICyPb7YRKLhjXZfB8FhLxRIMwFFnjb3wrs4GFRghBUpYM1OzsKhbKPEqTgmj3mBgggO6RS-n5uO5e4w~q12Ppthy4-eVdG81Xc6kOkozDi1Hd7RhhhgW~~pOTSucVs8QqqJXAa1eFPVjrZHcCp47vfn187OF8b-4EnXgjLNw__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ</item>
+        <item>https://cf-media.sndcdn.com/ysfm6tQJ3l07.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20veXNmbTZ0UUozbDA3LjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1NDM1MTI1NjZ9fX1dfQ__&Signature=MjSTZAlWYyw-6blwujQq6YzGy0GG~~n3kUoe1bqw-tuTX63ZP6itJDr4RFfQZiqojOQjz9~O-na38Cp6V4cetV0ozlR~VIb-YeUICnaZE5IWIxaShWdl4Jn0jv28qCW-9iQchD8A6V-GSsnyMQFdEtMBUuuL9Z6omfk15LDlSYD8~ncv8XIpZ1qRe-LNnFRECfTdMoHyLBEL6m5EPcMrezSw7u3VDk3PyObpemx7OgIDTsXUHQQaCGvyfW4VA3n1QI-2Isvv2pePYe2Gc~uZZman26iHyoRWqQl3rOEakc1FEB-NKWop-YfxeABHenIKl7Hwu5KbLKty8AweD4vYPA__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ</item>
+        <item>https://cf-media.sndcdn.com/0fpITIHA1ebb.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vMGZwSVRJSEExZWJiLjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1NDM1MTQ1NjB9fX1dfQ__&Signature=peHmGTdxWrEXIhRdmVBrlOAo8LfcW8qJFRNnMDUcKpzTXOWU5h7te3y0cU06Z8Cax9eHj9atFrGU3uNMgdIOWRP4XlyGY7JQkFsKDEfM2o9I9E1WOxJ6sp16BBH4zfJxaguAn0GO7qzdrd6Anj7I2odbsIDLDxQNVk6pfP1e5CTvL5jZvGz2X~SNOM0wh3sSwyW9PckqGfm72Gz4v9U7z6j543X~OZC~Se~RyroJxS2meo1MMpcq03d8GyjmdnS7nYicLioeGKBRR2mRln1r4mgC6-nUAyJKYUpd-g16BU7q7TewSUjG1QYfP-zX7-2OYrE5LIcpNh-wjvtRpuWzFg__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ</item>
+        -->
+
+
+        <!--<item>https://api-2.datmusic.xyz/links/6d891599686e216eb28a66c84b81d55d/Noragami%20Aragoto%20-%20Official%20Opening%20-%20Kyouran%20Hey%20Kids.mp3</item>-->
+        <!--<item>https://api-2.datmusic.xyz/links/2c16d7090a1018af2458766cddedc9bc/MOB%20CHOIR%20-%2099.mp3</item>-->
+
+        <!--
+        <item>https://newtabz.stream/stream/-uC3tQ:jJUtjB</item>
+        <item>https://newtabz.stream/stream/kJNWQB:pqX1rB</item>
+        <item>https://newtabz.stream/stream/GvWBZB:f2VAsB</item>
+        <item>https://newtabz.stream/stream/ZufAD:sWX1rB</item>
+        <item>https://newtabz.stream/stream/GvWBZB:sjS3rB</item>
+        <item>https://newtabz.stream/stream/hWyHJ:QVSjWB</item>
+        <item>https://newtabz.stream/stream/AWVsuH:YmxcQB</item>
+        <item>https://newtabz.stream/stream/SSAER:maX1rB</item>
+        <item>https://newtabz.stream/stream/sPQuuH:Z2X1rB</item>
+        <item>https://newtabz.stream/stream/jWadc:baX1rB</item>
+        <item>https://newtabz.stream/stream/gbU3F:peX1rB</item>
+        <item>https://newtabz.stream/stream/rt1Re:KjX1rB</item>
+        <item>https://newtabz.stream/stream/hVRVE:BQHPM</item>
+        -->
+    </string-array>
+
+    <integer-array name="images">
+        <item>@drawable/noragami_aragoto</item>
+        <item>@drawable/mob_psycho</item>
+        <item>@drawable/tokyo_ghul_re</item>
+        <item>@drawable/sword_art_online</item>
+        <item>@drawable/sword_art_online2</item>
+        <item>@drawable/death_parade</item>
+        <item>@drawable/noragami</item>
+        <item>@drawable/re_creators</item>
+        <item>@drawable/shingeki_no_kyojin</item>
+        <item>@drawable/log_horizon</item>
+        <item>@drawable/fate_apocrypha</item>
+        <item>@drawable/parasyte</item>
+        <item>@drawable/death_note</item>
+
+    </integer-array>
+</resources>
+

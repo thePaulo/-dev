@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "64433432290",
+    "firebase_url": "https://goddamned-firebase.firebaseio.com",
+    "project_id": "goddamned-firebase",
+    "storage_bucket": "goddamned-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64433432290:android:2a188869e67816e0",
+        "android_client_info": {
+          "package_name": "com.example.paulov.watashinohataraku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64433432290-0se10l93bege825smgpmutq7ob5emblu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.paulov.watashinohataraku",
+            "certificate_hash": "0974040cda83eb112ec7c22b873d12c3a0850f03"
+          }
+        },
+        {
+          "client_id": "64433432290-fidjd51utmiilutltfu6vv30drugj78k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvgyEIO3vf8qGCnLVzW_VAbho1Gl_g6oE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64433432290-fidjd51utmiilutltfu6vv30drugj78k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

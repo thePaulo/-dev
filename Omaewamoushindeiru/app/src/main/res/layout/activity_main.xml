@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:onClick="activeFocus"
+    android:background="#404040"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="172dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:onClick="showScreen"
+            android:id="@+id/btn_id"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:background="#FFA500"
+            android:text="d8"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:tag="8"/>
+
+        <Button
+            android:onClick="showScreen"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:background="#ff4500"
+            android:text="d6"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:tag="6"/>
+
+        <Button
+
+            android:onClick="showScreen"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:background="@color/red"
+            android:text="d4"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:tag="4"/>
+
+        <Button
+            android:onClick="showScreen"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:background="#800080"
+            android:text="d3"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:tag="3"/>
+
+        <Button
+            android:onClick="showScreen"
+            android:layout_width="108dp"
+            android:layout_height="match_parent"
+            android:background="#483d8b"
+            android:text="d2"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:tag="2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="112dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:onClick="showScreen"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#888888"
+            android:text="d100"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:tag="100"/>
+
+        <Button
+            android:onClick="showScreen"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_blue_light"
+            android:text="d20"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:tag="20"/>
+
+        <Button
+            android:onClick="showScreen"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#2E8B57"
+            android:text="d12"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:tag="12"/>
+
+        <Button
+            android:onClick="showScreen"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:background="#9ACD32"
+            android:text="d10"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:tag="10"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/display_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="63dp"
+        android:gravity="right"
+        android:text="d20"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:onClick="rowFunction"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="#1E90FF"
+        android:text="ROLL"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="109dp"
+        android:layout_marginEnd="77dp"
+        android:text="7    8    9\n4    5    6\n1    2    3\n-    0    +"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#707070"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="死" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_weight="1"
+            android:src="?android:attr/actionModeShareDrawable" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_lock_power_off" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_lock_idle_alarm" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/txt_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="196dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="116dp"
+        android:background="#0790FF"
+        android:visibility="gone">
+        <!--android:background="#87CEFA"-->
+        <TextView
+            android:id="@+id/txt_algo"
+            android:layout_width="match_parent"
+            android:layout_height="183dp"
+            android:gravity="center"
+            android:text="AE PORRA"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/dice"
+            android:layout_width="198dp"
+            android:layout_height="38dp"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ExemploAulaDialog</string>
+
+    <string-array name="linguagens">
+        <item>Java</item>
+        <item>C</item>
+        <item>Dart</item>
+        <item>TypeScript</item>
+        <item>Go</item>
+    </string-array>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Avaliação Unidade II</string>
+    <string name="action_add">Adicionar</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_gravar">Gravar</string>
+    <string name="dialog_title">Nome da Nota</string>
+    <string name="dialog_btn_ok">OK</string>
+    <string name="title_activity_login">Avaliação Unidade II</string>
+
+
+</resources>
